@@ -7,10 +7,10 @@ public class ParticipationAdaptGame {
         
         System.out.println("Welcome to the Participation Adaptive Game-Based Learning System!");
         
-        System.out.print("Enter your name: ");
+        System.out.printIn("Enter your name: ");
         String playerName = scanner.nextLine();
         
-        System.out.print("Enter your age: ");
+        System.out.printIn("Enter your age: ");
         int playerAge = scanner.nextInt();
         
         if(playerAge < 18) {
