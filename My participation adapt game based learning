@@ -24,39 +24,7 @@ public class ParticipationAdaptGame {
         }
         
         scanner.close();
-    }
-}
-```
-
-This code prompts the user to enter their name and age, and then checks if the user is old enough to participate in the game. If the user is old enough, it proceeds with the game logic. You can add more functionality and game elements as needed.Sure, here is a sample code in Java for a participation adaptive game-based learning system:
-
-```java
-import java.util.Scanner;
-
-public class ParticipationAdaptGame {
-    
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("Welcome to the Participation Adaptive Game-Based Learning System!");
-        
-        System.out.print("Enter your name: ");
-        String playerName = scanner.nextLine();
-        
-        System.out.print("Enter your age: ");
-        int playerAge = scanner.nextInt();
-        
-        if(playerAge < 18) {
-            System.out.println("Sorry, you must be at least 18 years old to participate in this game.");
-        } else {
-            System.out.println("Welcome, " + playerName + "! Let's start the game.");
-            
-            // Game logic goes here
-            
-            System.out.println("Congratulations, you have completed the game!");
-        }
-        
-        scanner.close();
-    }
+      }
+  }
 }
 
